@@ -10,6 +10,7 @@ public final class AndroidAsyncHttp {
     private static AsyncHttpClient client = new AsyncHttpClient();
 
     public static void get(String url, RequestParams params, AsyncHttpResponseHandler responseHandler) {
+
         client.get(url, params, responseHandler);
     }
 
